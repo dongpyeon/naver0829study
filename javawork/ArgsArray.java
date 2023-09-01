@@ -11,8 +11,8 @@ public class ArgsArray{
 	//참조형인 String 을 기본형인 int로 변환하는 방법이 있따!?
 	//integer 라는 Wrapper class를 이용해야 한다
 	
-	int su1 = Integer.parseInt(str1);
-	int su2 = Integer.parseInt(str2);
+	su1 = Integer.parseInt(str1);
+	su2 = Integer.parseInt(str2);
 	System.out.println("두수의합="+(su1+su2));
 	}
 

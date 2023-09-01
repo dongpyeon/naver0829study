@@ -35,8 +35,36 @@ public class ExamEx8 {
 		int exchange10 = exchange100%100;
 		int exchange1 = exchange10%10;
 		
-		System.out.printf("money : %d원 \n만원짜리%d장 \n천원짜리%d장 \n백원짜리%d개 \n십원짜리%d장 \n일원짜리%d개",payment,payment10000,exchange1000/1000,exchange100/100,exchange10/10,exchange1/1);
+		System.out.printf("money : %d원 \n만원짜리%d장 \n천원짜리%d장 \n백원짜리%d개 \n십원짜리%d장 \n일원짜리%d개 \n",payment,payment10000,exchange1000/1000,exchange100/100,exchange10/10,exchange1/1);
+
+		
+		
+		
+		
+		System.out.println("*****************************");
+		//정답
+		//파라미터에서 월급여를 읽어서(문자열) 정수타입으로 변환한다
+		
+		int realmoney = Integer.parseInt(args[0]);
+		System.out.println("월 급여:"+realmoney);
+		System.out.println("만원짜리 "+realmoney/10000+"장");
+		System.out.println("천원짜리 "+realmoney%10000/1000+"장");
+		System.out.println("백원짜리 "+realmoney%1000/100+"개");
+		System.out.println("십원짜리 "+realmoney%100/10+"개");
+		System.out.println("일원짜리 "+realmoney%10/1+"개");
+		
+		
+		
+		
+		
+		
+		
+		
 		
 	}
 
 }
+
+
+
+
