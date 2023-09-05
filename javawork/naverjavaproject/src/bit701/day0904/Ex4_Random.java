@@ -13,12 +13,12 @@ public class Ex4_Random {
 		}
 		System.out.println("=".repeat(30));
 		for(int i = 0; i<5; i++) {
-			int n=r.nextInt(100)+1; //0~9 사이의 난수 발생
+			int n=r.nextInt(100)+1; //
 			System.out.println(n);
 		}
 		System.out.println("=".repeat(30));
 		for(int i = 0; i<5; i++) {
-			int n=r.nextInt(26)+65; //0~9 사이의 난수 발생
+			int n=r.nextInt(26)+65; //
 			System.out.println((char)n);
 		}
 		System.out.println();
