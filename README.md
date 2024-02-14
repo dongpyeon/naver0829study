@@ -20,3 +20,4 @@ git-bash
 git config --global user.name "[사용자명]"
 git config --global user.email "[사용자이메일]"
  
+테스트수정
